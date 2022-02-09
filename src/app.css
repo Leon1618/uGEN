@@ -1,0 +1,93 @@
+* {
+  margin: 2px;
+  padding: 5px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: blanchedalmond;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/download/orange-black-white-and-gray-2532192");
+  background-size: contain;
+}
+
+h1 {
+  color: gray;
+  border-style: unset;
+  border-radius: 10%;
+  background-color: orange;
+  opacity: 90%;
+  margin: initial;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: unset;
+  display: inline-block;
+}
+
+h2 {
+  color: white;
+  border-style: unset;
+  border-radius: 1%;
+  background-color: orange;
+  opacity: 100%;
+  display: inline-block;
+}
+
+p {
+  color: white;
+  border-style: ridge;
+  background-color: lightslategrey;
+  opacity: 90%;
+  display: table-cell;
+}
+
+h4 {
+  margin-top: 130px;
+  padding-top: 2px;
+
+  border-style: unset;
+  border-radius: 2%;
+  background-color: orange;
+  opacity: 90%;
+  display: inline-block;
+}
+
+button {
+  margin-top: 150px;
+
+  margin: 140px 120px;
+  color: white;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  display: grid;
+
+  background-color: tomato;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid;
+}
+
+img {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  width: 250px;
+  height: 250px;
+  border-radius: 1%;
+  border: 1px solid white;
+}
